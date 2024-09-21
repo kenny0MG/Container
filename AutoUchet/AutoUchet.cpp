@@ -16,13 +16,9 @@ int main() {
 
 	//1
 	const vector<string> xs = { "hello", "appolon", "Ass", "computer", "aol"," "};
-
 	unsigned num_positive = count_if(xs.begin(), xs.end(), IsPositive);
 
 	cout << num_positive <<"\n";
-
-
-
 
 
 	//2
@@ -34,25 +30,16 @@ int main() {
 		cout << element.first << " " << element.second << endl;
 	}
 
-	
-
-
 
 	//3
 	std::vector<double> responseTimes = { 2.5, 3.1, 4.0, 1.2, 3.5 };
-
 	double medianTime = calculateMedian(responseTimes);
 
 	std::cout << "Median response time: " << medianTime << std::endl;
-  
-
-
-
 
 
 	//4
 	vector<pair<int, string>> person_name;
-
 	int count;
 
 	cin >> count;
@@ -73,9 +60,6 @@ int main() {
 	}
 
 
-
-
-
 	//5
 	int massive[COUNT_MASSIVE];
 
@@ -86,13 +70,10 @@ int main() {
 	}
 
 	cout << "Элементы массива:\n";
+
 	for (int i = 0; i < COUNT_MASSIVE; ++i) {
 		cout << massive[i] << "\t";
 	}
-
-
-
-
 
 
 	//6
@@ -112,17 +93,12 @@ int main() {
 	cout<<sr;
 
 
-
-
 	//7
 	set<string> stop_words = { "of", "in"};
 	string query = "Hi my name is Stas";
 	string add = accumulate(stop_words.begin(), stop_words.end(), query, AddStopWords);
 
 	cout << add;
-
-
-
 
 
 	//8
