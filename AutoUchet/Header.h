@@ -9,6 +9,12 @@ using namespace std;
 
 
 
+struct IdName {
+	int id;
+	string name;
+};
+
+
 
 bool IsPositive(const string& x);
 
